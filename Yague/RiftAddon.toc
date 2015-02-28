@@ -1,0 +1,49 @@
+Identifier = "Yague"
+Name =
+{
+	English = "Yague",
+	French = "Yague",
+	German = "Yague",
+}
+NameShort = "Yague"
+Description =
+{
+	English = "GUI Library",
+}
+Author = "Baanano"
+Version = "0.4.13"
+Email = "baanano.rift@gmail.com"
+Environment = "2.4"
+Dependencies =
+{
+	LibAsyncTextures = { "required", "before", },
+	LibScheduler = { "required", "before" },	
+}
+Embed =
+{
+	LibAsyncTextures = true,
+	LibScheduler = true,	
+}
+RunOnStartup =
+{
+	"Init.lua",
+	"EventHandler.lua",
+	"Panel.lua",
+	"ShadowedText.lua",
+	"Dropdown.lua",
+	"MoneyDisplay.lua",
+	"MoneySelector.lua",
+	"Slider.lua",
+	"DataGrid.lua",
+	"Window.lua",
+	"TabControl.lua",
+	"PopupManager.lua",
+	"Popup.lua",
+	"ScrollableText.lua",
+	"Calendar.lua",
+	"AutocompleteTextfield.lua",
+}
+-- X-Curse-Packaged-Version: r25
+-- X-Curse-Project-Name: Yague
+-- X-Curse-Project-ID: yague
+-- X-Curse-Repository-ID: rift/yague/mainline

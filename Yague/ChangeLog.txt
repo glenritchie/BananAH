@@ -1,0 +1,34 @@
+	Release 0.4.13
+- Fixed crashing bug on the Datagrid control
+
+	Release 0.4.12
+- Updated to the new event model
+
+	Release 0.4.9
+- Updated to RIFT 2.3
+
+	Release 0.4.7
+- Updated to RIFT 2.2
+- Fixed broken Key events after RIFT 2.2 patch
+- Added SetBarVisible method to the DataGrid control	
+- Added AutocompleteTextfield control	
+
+	Release 0.4.5
+- Added new controls:	
+ + Popup Manager	
+ + Popup
+ + ScrollableText
+ + Calendar
+- DataGrid changes:
+ + Added optional loading bars
+ + Reduced peak CPU usage when changing the data source
+ + SetData now accepts an 'immediate' parameter
+ + SetData now accepts a callback parameter (to be called when completed)
+ + Added option to change FontSize for Text Cells via function
+ + Fixed several bugs
+- Added option to Dropdown control to unfold upwards
+- Fixed bug in MoneySelector that made the keyboard unusable
+- Switched coin textures to those used by RIFT
+
+	Release 0.4.4
+- First version

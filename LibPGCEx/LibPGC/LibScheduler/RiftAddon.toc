@@ -1,0 +1,24 @@
+Identifier = "LibScheduler"
+Name =
+{
+	English = "LibScheduler",
+	French = "LibScheduler",
+	German = "LibScheduler",
+}
+NameShort = "LibScheduler"
+Description =
+{
+	English = "A scheduler library for async execution.",
+}
+Author = "Baanano"
+Version = "0.4.13"
+Email = "baanano.rift@gmail.com"
+Environment = "2.4"
+RunOnStartup =
+{
+	"Scheduler.lua",
+}
+-- X-Curse-Packaged-Version: r16
+-- X-Curse-Project-Name: LibPGC
+-- X-Curse-Project-ID: libpgc
+-- X-Curse-Repository-ID: rift/libpgc/mainline

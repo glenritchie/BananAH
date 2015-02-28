@@ -1,0 +1,19 @@
+	Release 0.4.12
+- Updated to the new event model
+
+	Release 0.4.10
+- Added rarity filter to the Resell searcher
+
+	Release 0.4.9
+- Updated to RIFT 2.3	
+
+	Release 0.4.5
+- Searchers: Raised level cap of Basic & Extended searchers to 60
+- Searchers: Added Category filter to the Resell Searcher
+- Samplers: Added Min. Sample Size option to the Time Sampler - It'll use older auctions if no recent data is available	
+- Fallbacks: Added Fixed Price Fallback	
+- Fixed bug in RelativePosition Price Stat
+- Fixed bug in PercentileTrim Price Sampler	
+
+	Release 0.4.4
+- First version

@@ -1,0 +1,60 @@
+Identifier = "LibPGCEx"
+Name =
+{
+	English = "LibPGCEx",
+	French = "LibPGCEx",
+	German = "LibPGCEx",
+}
+NameShort = "LibPGCEx"
+Description =
+{
+	English = "LibPGCEx allows to register modules that extend LibPGC functionality.",
+}
+Author = "Baanano"
+Version = "0.4.12"
+Email = "baanano.rift@gmail.com"
+Environment = "2.3"
+Embed =
+{
+	LibPGC = true,
+	LibScheduler = true,
+}
+Dependencies =
+{
+	LibPGC = { "required", "before" },
+	LibScheduler = { "required", "before" },
+}
+RunOnStartup =
+{
+	"Utility.lua",
+	"ModuleAuctionSearchers.lua",
+	"ModulePriceFallbacks.lua",
+	"ModulePriceSamplers.lua",
+	"ModulePriceStats.lua",
+	"ModulePriceComplex.lua",
+	"ModulePriceMatchers.lua",
+	"ModulePriceModels.lua",
+	"Localization.lua",
+	"Locale/English.lua",
+	"Locale/French.lua",
+	"Locale/German.lua",
+	"Locale/Korean.lua",
+	"Locale/Russian.lua",
+	"AuctionSearchers/Basic.lua",
+	"AuctionSearchers/Extended.lua",
+	"AuctionSearchers/Vendor.lua",
+	"AuctionSearchers/Resell.lua",
+	"PriceFallbacks/Fixed.lua",
+	"PriceFallbacks/Vendor.lua",
+	"PriceSamplers/Time.lua",
+	"PriceSamplers/StandardDeviation.lua",
+	"PriceSamplers/PercentileTrim.lua",
+	"PriceStats/Average.lua",
+	"PriceStats/RelativePosition.lua",
+	"PriceMatchers/SelfUndercut.lua",
+	"PriceMatchers/MinProfit.lua",
+}
+-- X-Curse-Packaged-Version: r16
+-- X-Curse-Project-Name: LibPGCEx
+-- X-Curse-Project-ID: libpgcex
+-- X-Curse-Repository-ID: rift/libpgcex/mainline
